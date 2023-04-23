@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const AppointmentService = require('./dogdaycare/src/services/appointments');
+const AppointmentService = require('./frontend/src/services/appointments');
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
